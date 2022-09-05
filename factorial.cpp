@@ -6,7 +6,7 @@ int factorial(int n){
     int a;
     int b;
     if(n<0){
-        printf("%s","enter a positive number");
+        cout<<"enter a positive number";
         return 0;
     }
     if(n!=1){
