@@ -1,11 +1,12 @@
 #include "functions.h"
 #include<iostream>
+using namespace std;
 
 int factorial(int n){
     int a;
     int b;
     if(n<0){
-        std::cout<<"enter a positive number";
+        printf("%s","enter a positive number");
         return 0;
     }
     if(n!=1){
